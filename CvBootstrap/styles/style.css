@@ -11,16 +11,33 @@ img{
     max-width: 100%;
     height: auto;
 }
+section{
+    padding:45px 0 80px 0;
+}
 section .heading{
     text-align: center;
     padding-bottom: 40px;
 }
-
+section .heading h2{
+    text-transform: uppercase;
+}
+.blue-border{
+    width: 100px;
+    height: 2px;
+    background:#4e75ca;
+    margin: 0 auto 20px auto;
+}
+.white-border{
+    width: 100px;
+    height: 2px;
+    background:#ffffff;
+    margin: 0 auto 20px auto;
+}
 /* ABOUT */
 
 #about{
     padding-top: 100px;
-    background: #db5558;
+    background: #4e75ca;
 }
 .profil-picture{
     text-align: center;
@@ -29,10 +46,11 @@ section .heading{
 }
 #about .heading h1{
     color:#fff;
-    font-size: 60px;
+    font-size: 50px;
     text-transform: uppercase;
 }
 #about .heading h3{
+    font-size: 60px;
     color:black;
 }
 .button1{
@@ -48,35 +66,176 @@ section .heading{
 }
 .button1:hover{
     background: white;
-    color:#e63e41;
+    color:#4e75ca;
     text-decoration: none;
 }
 
 
 
 
+/* SKILLS */
+#skills{
+    background: #fff;
+}
+#skills .heading h2{
+    color: #4e75ca;
+
+}
+#skills .progress{
+    height: 40px;
+    margin: 30px 20px;
+    background: #ddd;
+}
+#skills .progress-bar{
+    background: #4e75ca;
+}
+#skills .progress h5{
+    text-shadow: 1px 1px 1px #000;
+}
 
 
-/* GENERAL */
+/* EXPERIENCE */
+#experience{
+    background:#4e75ca;
+}
+#experience .heading h2{
+    color: #fff;
 
+}
+.timeline{
+    padding:30px 10px;
+    position: relative;
+}
+.timeline:before{       /*signifie avant l'element timeline tu me fais ce qui est ci-dessous*/
+    top:0;
+    bottom:0;
+    position: absolute;
+    content:" ";
+    width:5px;
+    background: #333;
+    left:50%;
+    margin: -2.5px;  /* 5/2 dû à la largeur de 5px pour que la timeline reste bien centré*/
+}
+.timeline > li{  /* li quit directement la timeline le direct enfant*/
 
+    margin-bottom: 20px;
+    position: relative;
+    list-style: none;
 
+}
+.timeline > li:after{
+    clear: both;
+}
+.timeline >li:before, .timeline >li:after{
+    content:" ";
+    display: table;
+}
+.timeline li .timeline-badge{
+    color: #4e75ca;
+    width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top:16px;
+    left:50%;
+    margin-left: -25px;
+    background-color: #ddd;
+    border-radius: 50%;
 
+}
+.timeline-panel-container{
+    width: 50%;
+    float: left;
+}
+.timeline-panel-container-inversed{
+    width: 50%;
+    float: right;
+}
+.timeline-panel{
+    width: 90%;
+    float: right;
+    margin-right: 40px;
+    border: 1px solid #b4b4b4;
+    border-radius: 20px;
+    padding:20px 25px 20px 25px;
+    position: relative;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.175);
+    background-color: #fff;
+}
+.timeline-panel-container-inversed .timeline-panel{
+    float: left;
+    margin-left: 40px;
+}
+.timeline-panel:after{
+    position: absolute;
+    top:27px;
+    right: -14px;
+    display: inline-block;
+    border-top: 14px solid transparent;
+    border-left: 14px solid #fff;
+    border-right: 0 solid #fff;
+    border-bottom: 14px solid transparent;
+    content: " ";
+}
+.timeline-panel-container-inversed .timeline-panel:after{
+    border-left-width:0;
+    border-right-width:14px;
+    left:-14px;
+    right:auto;
 
+}
+.timeline-heading h3{
+    margin-top:5px;
+    font-size: 20px;
+}
+.timeline-heading h4{
+    color: #4e75ca;
+}
 
+/* EDUCATION */
 
-/* GENERAL */
+#education{
+    background-color: white;
 
+}
+#education .heading h2{
+    color:#4e75ca;
 
+}
+.education-block{
+    width:80%;
+    margin:0 auto;
+    text-align:center;
+    padding:30px;
+    background: #ddd;
+    border-radius:10px;
+    border:2px solid #ccc;
+    margin-bottom: 20px;
 
+}
+.education-block h5{
+    color: #888;
+    font-size: 15px;
+    margin-bottom: 15px;
 
+}
+.education-block span{
+    font-size: 40px;
+}
+.education-block h3{
+    color:#4e75ca;
+}
+.education-block h4{
+    margin-bottom: 20px;
 
-
-
-/* GENERAL */
-
-
-
+}
+.education-block p {
+    font-weight: bold;
+}
+.education-block .blue-border{
+    margin-bottom: 20px;
+}
 
 
 
