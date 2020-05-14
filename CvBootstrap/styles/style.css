@@ -1,0 +1,84 @@
+/* GENERAL */
+/* font-family: 'Lato', sans-serif; */
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+section .heading{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+/* ABOUT */
+
+#about{
+    padding-top: 100px;
+    background: #db5558;
+}
+.profil-picture{
+    text-align: center;
+    margin:0 auto;
+
+}
+#about .heading h1{
+    color:#fff;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+#about .heading h3{
+    color:black;
+}
+.button1{
+    font-weight: bold;
+    text-transform: uppercase;
+    color:white;
+    border:1px solid white;
+    margin-top: 20px;
+    padding:18px 50px;
+    border-radius: 3px;
+    display: inline-block;
+    transition: all 0.4s ease-in 0s;
+}
+.button1:hover{
+    background: white;
+    color:#e63e41;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* GENERAL */
+
+
+
+
+
+
+
+/* GENERAL */
+
+
+
+
+
+
+
+/* GENERAL */
+
+
+
+
+
+
+
+/* GENERAL */
