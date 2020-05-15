@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="witdh-device-width initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
@@ -13,7 +13,7 @@
 
 <body>
     <section id="about" class="container-fluid">
-        <div class="col-8 col-md-4 profil-picture">
+        <div class="col-8 col-sm-4 profil-picture">
             <img src="images/photoKevin.jpg" alt="photo de Kévin" class="rounded-circle">
 
         </div>
@@ -172,38 +172,127 @@
 
     <section id="education">
         <div class="container">
+            <div class="blue-border"></div>
+            <div class="heading">
+                <h2>Education</h2>
+            </div>
             <div class="row">
                 <div class=col-md-6>
                     <div class="education-block">
                         <h5>2020</h5>
-                        <span class="far fa-clock"></span>
-                        <h3>Apprendre à coder.com</h3>
-                        <h4>Formation en ligne developement web</h4>
+                        <span><small class="far fa-clock"></small></span>
+                        <h3>AFPA</h3>
+                        <h4>Formation developement web</h4>
                         <div class="blue-border"></div>
-                        <p>HTML CSS</p>
-                        <p>Bootstratp</p>
+                        <p>HTML CSS etc</p>
+                        <p>Bootstratp JQUERY etc</p>
                     </div>
                 </div>
                 <div class=col-md-6>
                     <div class="education-block">
                         <h5>2020</h5>
-                        <span class="far fa-clock"></span>
-                        <h3>Apprendre à coder.com</h3>
+                        <span><small class="far fa-clock"></small></span>
+                        <h3>OpenClassRoom</h3>
                         <h4>Formation en ligne developement web</h4>
                         <div class="blue-border"></div>
-                        <p>HTML CSS</p>
-                        <p>Bootstratp</p>
+                        <p>pleins de choses</p>
+                        <p>et encore pleins de choses</p>
                     </div>
                 </div>
               
             </div>
 
         </div>
-
-
-
     </section>
 
+
+    <section id="portfolio">
+        <div class="container">
+        
+            <div class="white-border"></div>
+            <div class="heading">
+                <h2>Portfolio</h2>
+            </div>
+            <div class="row">
+                <div class="img col-sm-4">
+                    <a href="http://facebook.com" target="_blank">
+                        <img class="img-thumbnail" src="images/facebook_share.png" alt="facebook share">
+                    </a> <!--img-thumbnail= la bordure blanche-->
+                </div>
+                <div class="img col-sm-4">
+                    <a href="http://google.com" target="_blank">
+                        <img class="img-thumbnail" src="images/google_translate.png" alt="google translate">
+                    </a>
+                </div>
+                <div class="img col-sm-4">
+                    <a href="http://twitter.com" target="_blank">
+                        <img class="img-thumbnail" src="images/twitter_video.png" alt="twitter video">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="img col-sm-4">
+                    <a href="http://youtube.com" target="_blank">
+                        <img class="img-thumbnail" src="images/youtube.png" alt="Youtube">
+                    </a>
+                </div>
+                <div class="img col-sm-4">
+                    <a href="http://twitter.com" target="_blank">
+                        <img class="img-thumbnail" src="images/twitter_retweet.png" alt="twitter retweet">
+                    </a>
+                </div>
+                <div class="img col-sm-4">
+                    <a href="http://facebook.com" target="_blank">
+                        <img class="img-thumbnail" src="images/facebook_video.png" alt="facebook video">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="recommandations">
+        <div class="container">
+            <div class="blue-border"></div>
+            <div class="heading">
+                <h2>Recommandations</h2>
+            </div>
+            <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <h3>"Merci à Kévin de m'avoir appris les bases"</h3>
+                    <h4>lada lovelace</h4>
+                  </div>
+                  <div class="carousel-item">
+                    <h3>"Ouh un carousel!!!"</h3>
+                    <h4>Homer simpson</h4>
+                  </div>
+                  <div class="carousel-item">
+                    <h3>"OKOKOKggggggOKKKOKOKOKO"</h3>
+                    <h4>Moi</h4>
+                  </div>
+                </div>
+                
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+
+        </div>
+    </section>
 
 
 

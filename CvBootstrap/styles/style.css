@@ -240,4 +240,55 @@ section .heading h2{
 
 
 
-/* GENERAL */
+/* PORTFOLIO */
+
+#portfolio{
+    background-color: #4e75ca;
+}
+#portfolio .heading h2{
+    color:#fff;
+}
+#portfolio .img{
+    margin-bottom: 20px;
+}
+#portfolio img{
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+#portfolio img:hover{
+    filter: none;
+    -webkit-filter: none;
+}
+
+/* RECOMMANDATIONS */
+
+#recommandations{
+    background-color: white;
+}
+#recommandations h2{
+    color: #4e75ca;
+}
+
+.carousel-control-prev-icon, .carousel-control-next.icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%4e75ca' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+} 
+
+.carousel-indicators{
+    bottom: 0px;
+}
+.carousel-indicators li{
+    border-color:#4e75ca;
+}
+.carousel-indicators li.active{
+    background-color: #4e75ca;
+}
+#myCarousel .carousel-item{
+    padding: 40px 30px;
+}
+#myCarousel .carousel-item h3{
+    font-style: italic;
+    color:#4e75ca;
+
+}
